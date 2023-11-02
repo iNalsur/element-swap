@@ -9,12 +9,12 @@
     background-color:gray;
     margin: 10px;
     opacity: 0;
-    transition: opacity 1s ease-in-out;
+    transition: opacity 2s ease-in-out;
     position: absolute;
 }
 
 .div1.visible,
 .div2.visible {
   opacity: 1;
-  transition: opacity 1s ease-in-out;
+  transition: opacity 2s ease-in-out;
 }

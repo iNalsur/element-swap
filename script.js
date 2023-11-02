@@ -6,3 +6,12 @@ let currentDiv = div1;
 let nextDiv = div2;
 
 currentDiv.style.display = "block";
+
+setInterval(function() {
+    currentDiv.style.display = "none";
+    nextDiv.style.display = "block";
+
+    const tempDiv = currentDiv;
+    currentDiv = nextDiv;
+    nextDiv = tempDiv;
+}, 10000);

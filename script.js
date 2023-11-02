@@ -4,3 +4,5 @@ const container = document.querySelector(".container");
 
 let currentDiv = div1;
 let nextDiv = div2;
+
+currentDiv.style.display = "block";

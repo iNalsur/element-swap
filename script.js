@@ -5,12 +5,12 @@ document.addEventListener("DOMContentLoaded", function() {
     let currentDiv = div1;
     let nextDiv = div2;
 
-    currentDiv.style.display = "block";
-    nextDiv.style.display = "none";
-
+    currentDiv.classList.add("visible");
+    nextDiv.classList.remove("visible");   
+    
     setInterval(function() {
-        currentDiv.style.display = "none";
-        nextDiv.style.display = "block";
+        currentDiv.classList.remove("visible");
+        nextDiv.classList.add("visible");      
 
         const tempDiv = currentDiv;
         currentDiv = nextDiv;

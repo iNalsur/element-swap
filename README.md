@@ -4,3 +4,6 @@ A script that changes one Div to another Div within 10 seconds, the switching oc
 
 Check script:
 <a href="https://inalsur.github.io/div-swap/" style="backgroundColor=white">link</a>
+
+<h2>Instruction</h2>
+Wait for a 10 seconds to see the script effect
